@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+button {
+  @apply bg-slate-300 py-2 px-10 text-slate-800 mt-4 rounded hover:bg-slate-200;
+}
+
+button:disabled {
+  @apply bg-slate-50 text-slate-200;
+}
